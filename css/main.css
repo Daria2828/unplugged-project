@@ -214,24 +214,20 @@ footer {
   text-align: center;
 }
 
-footer p {
-	margin: 0;
-}
-
 footer .content-wrapper {
 	width: 55%;
-  margin: 50px 0;
+  margin: 40px 0 0 0;
 }
 
 footer .contact {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 footer .social-icons p {
@@ -246,10 +242,6 @@ footer .social-icons p {
 
 footer .social-icons p i {
   font-size: 1.3125em;
-}
-
-footer .copyright {
-	margin: 50px 0 0 0;
 }
 
 /****** Mobile Styles - Homepage ******/ 
@@ -272,9 +264,8 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-size: 2.2em;
-  font-weight: 500;
-  margin: 0;
+  font-size: 2.25em;
+  font-weight: 700;
 }
 
 /* Aside */
@@ -670,7 +661,7 @@ input[type=button] {
     /* Footer */
     footer .content-wrapper {
       width: 65%;
-      margin: 100px 0;
+      margin: 70px 0 0 0;
     }
     
     footer .footer-content {
@@ -724,7 +715,7 @@ input[type=button] {
     }
 
     .contact-section .content-wrapper {
-      margin: 60px 0 75px 0;
+      margin: 75px 0;
     }
 
     .contact-section .content-wrapper h2 {
@@ -780,6 +771,14 @@ h3, h4 {
 p {
   font-size: 1.125em;
   line-height: 1.333;
+}
+
+header figure {
+  width: 35%;
+}
+
+header nav {
+  width: 20%;
 }
 
 footer .content-wrapper {
